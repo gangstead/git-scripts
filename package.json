@@ -1,0 +1,21 @@
+{
+  "name": "git-scripts",
+  "version": "1.0.0",
+  "description": "just some scripts",
+  "main": "listRepos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gangstead",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^4.16.6",
+    "yarp": "^0.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-vinli": "^5.2.0",
+    "eslint-plugin-mocha": "^4.7.0"
+  }
+}
