@@ -8,7 +8,7 @@ const yarp = require('yarp');
 const program = require('commander');
 
 program
-  .description('Create sims after devices are created')
+  .description('List all repos.  Recursively follows paginated links to build list.')
   .option('--token [token]', 'github oauth or personal access token')
   .parse(process.argv);
 
